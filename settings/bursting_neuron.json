@@ -1,0 +1,41 @@
+{   
+    "experiment": "BurstingNeuron",
+    "name": "defaults",
+    "path_to_data": "example_data/bursting_neuron.npy",
+    "path_to_inputs": "",
+    "run": 1,
+    "device": "cpu",
+
+    "model": "clippedShallowPLRNN",
+    "observation_model": "Identity",
+    "latent_dim": 3,
+    "num_bases": 0,
+    "hidden_layers": "",
+    "hidden_dim": 100,
+    "optional_model_args": [],
+
+    "MAR_ratio": 0.0,
+    "MAR_lambda": 0.0,
+    "lat_model_regularization": 0.0,
+    "obs_model_regularization": 0.0,
+
+    "optimizer": "RADAM",
+    "gradient_clipping_norm": 0.0,
+    "start_lr": 1e-3,
+    "end_lr": 1e-6, 
+    "batch_size": 16,
+    "sequence_length": 300,
+    "teacher_forcing_interval": 5,
+    "weak_tf_alpha": 0.4,
+
+    "epochs": 5000,
+    "batches_per_epoch": 50,
+    "scalar_saving_interval": 25,
+    "image_saving_interval": 25,
+    "gaussian_noise_level": 0.05,  
+
+    "D_stsp_bins": 30,
+    "D_stsp_scaling": 0.3,
+    "PSE_smoothing": 20.0,
+    "PE_n": 20
+}

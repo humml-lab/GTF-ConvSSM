@@ -5,11 +5,10 @@ The entire project is written in [Julia](https://julialang.org/) using the [Flux
 ### 1.1 Installation
 Install the package in a new Julia environment and open the package manager using the `"]"` key, and activate and instantiate the package:
 ```julia
-julia> `"]"`
+julia> ]
 (@v1.11) pkg> activate .
 (GTF-convSSM) pkg> instantiate
 ```
-We recommend using the latest version of [Julia (>v1.9)](https://julialang.org/downloads/).
 
 # 2. Running the code
 ## 2.1 Single runs
@@ -118,4 +117,4 @@ would load the plain data from "numpy_data/Observation_data/example1.npy" and th
 
 
 # Versions
-- Julia 1.8.5
+- Julia 1.11.0

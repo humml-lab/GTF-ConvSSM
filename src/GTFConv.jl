@@ -1,4 +1,4 @@
-module BPTT
+module GTFConv
 using Reexport
 using Statistics
 

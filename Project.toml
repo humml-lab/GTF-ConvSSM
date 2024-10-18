@@ -1,7 +1,7 @@
-name = "BPTT"
-uuid = "84beb053-a066-4ae9-8af9-707f5e1c390b"
-authors = ["Anonymous"]
-version = "0.2.0"
+name = "GTFConv"
+uuid = "9685852e-8b76-4f9e-8f48-7f3fff6cbb02"
+authors = ["Alena Brändle <alena.braendle@zi-mannheim.de>"]
+version = "0.1.0"
 
 [deps]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
@@ -38,9 +38,6 @@ Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
-[compat]
-cuDNN = "1.4.0"
-julia = "1.8"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

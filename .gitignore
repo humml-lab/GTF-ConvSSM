@@ -1,0 +1,8 @@
+/Manifest.toml
+data/
+dev/
+Results/
+settings.json
+nohup.out
+.ipynb
+.pdf
